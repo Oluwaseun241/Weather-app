@@ -30,7 +30,7 @@ window.addEventListener('load', ()=> {
                     locationTimezone.textContent = data.timezone;
 
                     //FORMULA FOR CELSIUS
-                    let celsius = (temp - 32) * (5 / 9);
+                    let celsius = (temp *(9/5) +32 );
 
                     //Set icon
                     setIcons(icon, document.querySelector(".icon"));
