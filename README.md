@@ -7,6 +7,8 @@ You can check it out at https://weather-pp.netlify.app/
 
 Make sure you allow your browswer location access
 
+And if you're using a mobile device make sure your location is on
+
 # Function
 It checks the location of the device and it brings the most accurate current weather information
 
