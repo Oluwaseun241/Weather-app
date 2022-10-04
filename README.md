@@ -4,10 +4,11 @@ This a backend code to the Weather app https://github.com/Yourmix-Jnr/weather-ap
 # weather-app
 Weather app built with HTML, CSS and JavaScript.
 You can check it out at https://weather-pp.netlify.app/
+
 Make sure you allow your browswer location access
 
 # Function
 It checks the location of the device and it brings the most accurate current weather information
 
-#Updates
+# Updates
 More updates coming soon.....
