@@ -13,5 +13,7 @@ And if you're using a mobile device make sure your location is on.
 # Function
 It checks the location of the device and it brings the most accurate current weather information
 
+Click on the degree section to change from degree Celsius to Fahrenheit
+
 # Updates
 More updates coming soon.....
