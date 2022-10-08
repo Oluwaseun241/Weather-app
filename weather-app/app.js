@@ -38,10 +38,10 @@ window.addEventListener('load', ()=> {
                     //Change temperature to Celsius/Fareheit
                     temperatureSection.addEventListener('click', ()=>{
                         if(temperatureSpan.textContent === 'C') {
-                            temperatureSpan.textContent = 'F';
+                            temperatureSpan.textContent = '\u00B0'+'F';
                             temperatureDegree.textContent = Math.floor(celsius);
                         }else{
-                            temperatureSpan.textContent = 'C';
+                            temperatureSpan.textContent = '\u00B0'+'C';
                             temperatureDegree.textContent = temp;
                         }
                     });
