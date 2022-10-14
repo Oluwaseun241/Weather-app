@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,33 +6,49 @@
 }
 body {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     background: linear-gradient(#6c87be, #133987);
     font-family: sans-serif;
     color: #fff;
 }
-.location {
-    height: 30vh;
-    width: 50%;
+.container {
+    position: relative;
+    display: inline-flex;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.sidelocation {
+    position: relative;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    width: 300px;
+    height: 60px;
 }
-.temperature {
-    flex-direction: column;
+.icons {
+    width: 23px;
+    height: 30px;
 }
-.degree-section {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-.degree-section span {
-    margin: 10px;
+.locationdate {
+    position: absolute;
+    font-family: lato;
+    font-style: normal;
+    font-weight: 500;
     font-size: 30px;
+    margin-left: 30px;
+    line-height: 30px;
 }
-.degree-section h2 {
-    font-size: 40px;
+.regiontime {
+    position: absolute;
+    font-family: lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    top: 30px;
+    left: 50px;
+}
+.sidedate {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    left: 110%;
 }
