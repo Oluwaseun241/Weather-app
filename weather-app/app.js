@@ -13,8 +13,8 @@ window.addEventListener('load', ()=> {
             lat = position.coords.latitude;
 
             // const proxy = 'https://cors-anywhere.herokuapp.com/corsdemo';
-
-            const api = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${lat},${long}?unitGroup=metric&key=8QQKGQFKZZXTCRAK8QVA3Q7G3&contentType=json`;
+            const apiKey = API_KEY
+            const api = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${lat},${long}?unitGroup=metric&key=${apiKey}&contentType=json`;
 
             fetch(api)
                 .then(response =>{
