@@ -52,3 +52,82 @@ body {
     height: 60px;
     left: 110%;
 }
+.s-container {
+    position: absolute;
+    box-sizing: border-box;
+    width: 270px;
+    height: 255px;
+    left: 520px;
+    top: 80px;
+}
+#stormyweather {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 70px;
+}
+.weather-status {
+    position: relative;
+    display: flex;
+    top: 120px;
+    left: 25px;
+}
+.weather-status hr {
+    position: relative;
+    width: 3px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    background: #fff;
+}
+.cel-feh {
+    position: relative;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 19px;
+}
+.celfel {
+    position: relative;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 19px;
+}
+.cloud-status {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height: 50px;
+    top: 139px;
+    border-radius: 5px;
+    background: linear-gradient(#6c87be, #133987);
+}
+#cloud-rain-text {
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+}
+#cloud-status {
+    position: relative;
+    top: 10px;
+    width: 27px;
+    height: 27px;
+}
+.forcast-days {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 60px;
+}
