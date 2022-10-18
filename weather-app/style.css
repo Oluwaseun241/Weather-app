@@ -27,7 +27,7 @@ body {
     width: 23px;
     height: 30px;
 }
-.locationdate {
+.location-timezone {
     position: absolute;
     font-family: lato;
     font-style: normal;
