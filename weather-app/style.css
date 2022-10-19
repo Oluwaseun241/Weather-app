@@ -66,13 +66,13 @@ body {
     height: 100px;
     left: 70px;
 }
-.weather-status {
+.temperature {
     position: relative;
     display: flex;
     top: 120px;
     left: 25px;
 }
-.weather-status hr {
+.temperature hr {
     position: relative;
     width: 3px;
     height: 30px;
