@@ -97,7 +97,7 @@ body {
     font-size: 30px;
     line-height: 19px;
 }
-.cloud-status {
+.temperature-description {
     position: relative;
     display: flex;
     justify-content: center;
