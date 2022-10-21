@@ -131,3 +131,107 @@ body {
     margin-top: 150px;
     margin-left: 60px;
 }
+.l-section {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 200px;
+    top: 380px;
+}
+.day1 {
+    position: relative;
+    display: block;
+    justify-items: center;
+}
+.day-name {
+    position: relative;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 19px;
+}
+.day-status-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.prm-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    width: 150px;
+}
+.first-prm{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    top: 5px;
+}
+.first-prm-img {
+    width: 23px;
+    height: 30px;
+    margin-right: 10px;
+}
+.intemp {
+    position: relative;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+}
+.second-prm {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    top: 17px;
+}
+.second-prm-img {
+    width: 23px;
+    height: 24px;
+    margin-right: 10px;
+}
+.inhpa {
+    position: relative;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+}
+.last-prm {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    top: 27px;
+}
+.last-prm-img {
+    width: 23px;
+    height: 24px;
+    margin-right: 10px;
+}
+.inms {
+    position: relative;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+}
+.hr-seperator {
+    position: absolute;
+    width: 3px;
+    height: 200px;
+    left: 180px;
+    border: none;
+    background: #fff;
+}
