@@ -21,7 +21,7 @@ window.addEventListener('load', ()=> {
                     return response.json();
                 })
                 .then(data =>{
-                    console.log(data);
+                    // console.log(data);
                     const {temp, conditions, icon} = data.currentConditions;
 
                     //Set DOM Elements from the API
