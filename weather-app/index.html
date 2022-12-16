@@ -10,16 +10,141 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="location">
-        <h1 class="location-timezone">Timezone</h1>
-        <canvas class="icon" width="128" height="128"></canvas>
-    </div>
-    <div class="temperature">
-        <div class="degree-section">
-            <h2 class="temperature-degree">34</h2>
-            <span>°C</span>
+    <div class="container">
+        <div class="sidelocation">
+            <img class="icons" src="public/location-icon.png" alt=""><span class="location-timezone">Lagos/Africa</span>
         </div>
-        <div class="temperature-description">It's kinda cold</div>
-    </div>
+        <div class="sidedate">
+            <img class="icons" src="public/date-range.png" alt=""><span class="location-timezone">24th Oct, 2022</span>
+            <h2 class="regiontime">5:00 AM</h2>
+        </div>
+        <div class="s-container">
+            <img id="stormyweather" src="public/stormy-weather ().png" alt="">
+            <div class="temperature">
+                <h3 class="temperature-degree">34</h3>
+                <span>°C</span>
+                <hr>
+                <h3 class="temperature-degree">44</h3>
+                <span>°F</span>
+            </div>
+            <div class="cloud-status">
+                <img id="cloud-status" src="public/cloud-rain.png" alt="">
+                <span id="cloud-rain-text">Rainy Storm Clouds</span>
+            </div>
+            <h3 class="forcast-days">7 Days Forecast</h3>
+        </div>
+        <div class="l-section">
+            <div class="day1">
+                <h2 class="day-name">Tuesday</h2>
+                <img class="day-status-icon" src="public/icons-sun.png" alt="">
+                <div class="prm-container">
+                    <div class="first-prm">
+                        <img class="first-prm-img" src="public/water.png" alt=""> <span class="intemp">-10*c | 44*F</span>
+                    </div>
+                    <div class="second-prm">
+                        <img class="second-prm-img" src="public/weather-time.png" alt=""> <span class="inhpa">1000 hpa</span>
+                    </div>
+                    <div class="last-prm">
+                        <img class="last-prm-img" src="public/star-of-life.png" alt=""> <span class="inms">6m/s - NE</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-seperator">
+            <div class="day2">
+                <h2 class="day-name">Wednesday</h2>
+                <img class="day-status-icon" src="public/stormy-weather ().png" alt="">
+                <div class="prm-container">
+                    <div class="first-prm">
+                        <img class="first-prm-img" src="public/water.png" alt=""> <span class="intemp">-12*c | 11*F</span>
+                    </div>
+                    <div class="second-prm">
+                        <img class="second-prm-img" src="public/weather-time.png" alt=""> <span class="inhpa">2000 hpa</span>
+                    </div>
+                    <div class="last-prm">
+                        <img class="last-prm-img" src="public/star-of-life.png" alt=""> <span class="inms">4m/s - NE</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-seperator2">
+            <div class="day3">
+                <h2 class="day-name">Thursday</h2>
+                <img class="day-status-icon" src="public/snow.png" alt="">
+                <div class="prm-container">
+                    <div class="first-prm">
+                        <img class="first-prm-img" src="public/water.png" alt=""> <span class="intemp">-12*c | 11*F</span>
+                    </div>
+                    <div class="second-prm">
+                        <img class="second-prm-img" src="public/weather-time.png" alt=""> <span class="inhpa">2000 hpa</span>
+                    </div>
+                    <div class="last-prm">
+                        <img class="last-prm-img" src="public/star-of-life.png" alt=""> <span class="inms">4m/s - NE</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-seperator3">
+            <div class="day4">
+                <h2 class="day-name">Friday</h2>
+                <img class="day-status-icon" src="public/clouds.png" alt="">
+                <div class="prm-container">
+                    <div class="first-prm">
+                        <img class="first-prm-img" src="public/water.png" alt=""> <span class="intemp">-12*c | 11*F</span>
+                    </div>
+                    <div class="second-prm">
+                        <img class="second-prm-img" src="public/weather-time.png" alt=""> <span class="inhpa">2000 hpa</span>
+                    </div>
+                    <div class="last-prm">
+                        <img class="last-prm-img" src="public/star-of-life.png" alt=""> <span class="inms">4m/s - NE</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-seperator4">
+            <div class="day5">
+                <h2 class="day-name">Saturday</h2>
+                <img class="day-status-icon" src="public/stormy-weather.png" alt="">
+                <div class="prm-container">
+                    <div class="first-prm">
+                        <img class="first-prm-img" src="public/water.png" alt=""> <span class="intemp">-12*c | 11*F</span>
+                    </div>
+                    <div class="second-prm">
+                        <img class="second-prm-img" src="public/weather-time.png" alt=""> <span class="inhpa">2000 hpa</span>
+                    </div>
+                    <div class="last-prm">
+                        <img class="last-prm-img" src="public/star-of-life.png" alt=""> <span class="inms">4m/s - NE</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-seperator5">
+            <div class="day6">
+                <h2 class="day-name">Sunday</h2>
+                <img class="day-status-icon" src="public/cloudy.png" alt="">
+                <div class="prm-container">
+                    <div class="first-prm">
+                        <img class="first-prm-img" src="public/water.png" alt=""> <span class="intemp">-12*c | 11*F</span>
+                    </div>
+                    <div class="second-prm">
+                        <img class="second-prm-img" src="public/weather-time.png" alt=""> <span class="inhpa">2000 hpa</span>
+                    </div>
+                    <div class="last-prm">
+                        <img class="last-prm-img" src="public/star-of-life.png" alt=""> <span class="inms">4m/s - NE</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-seperator6">
+            <div class="day7">
+                <h2 class="day-name">Monday</h2>
+                <img class="day-status-icon" src="public/stormy-weather.png" alt="">
+                <div class="prm-container">
+                    <div class="first-prm">
+                        <img class="first-prm-img" src="public/water.png" alt=""> <span class="intemp">-12*c | 11*F</span>
+                    </div>
+                    <div class="second-prm">
+                        <img class="second-prm-img" src="public/weather-time.png" alt=""> <span class="inhpa">2000 hpa</span>
+                    </div>
+                    <div class="last-prm">
+                        <img class="last-prm-img" src="public/star-of-life.png" alt=""> <span class="inms">4m/s - NE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
